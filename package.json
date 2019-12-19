@@ -1,0 +1,13 @@
+{
+  "name": "charbot",
+  "version": "1.0.0",
+  "description": "discord bot test",
+  "main": "bot.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "nedb": "^1.8.0",
+    "winston": "^3.2.1"
+  }
+}
