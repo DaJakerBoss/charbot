@@ -104,7 +104,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
         } else {
             // If the message contains no commandString then
 
-            if (message.includes('uwu')) {
+            if (message.content.toLowerCase().includes('uwu')) {
                 logger.info('found uwu, logging');
                 // Count uwus
                 msgUwuCount = occurrences(message, 'uwu'); // set uwu count for the current message
